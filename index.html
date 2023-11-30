@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container round-border">
+        <div class="display round-border">
+            <p class="input"></p>
+            <p class="result"></p>
+        </div>
+        <div class="button-group round-border">
+            <div class="row">
+                <button type="button" class="bg-yellow btn-one-half" id="clear-btn">Clear</button>
+                <button type="button" class="operator bg-yellow btn-one-half" id="delete-btn">Delete</button>
+                <button type="button" class="bg-yellow">÷</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number">7</button>
+                <button type="button" class="number">8</button>
+                <button type="button" class="number">9</button>
+                <button type="button" class="operator bg-yellow">×</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number">4</button>
+                <button type="button" class="number">5</button>
+                <button type="button" class="number">6</button>
+                <button type="button" class="operator bg-yellow">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number">1</button>
+                <button type="button" class="number">2</button>
+                <button type="button" class="number">3</button>
+                <button type="button" class="operator bg-yellow">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number btn-double">0</button>
+                <button type="button" class="number" id="dot-btn">.</button>
+                
+                <button type="button" class="bg-yellow" id="equal-btn">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
